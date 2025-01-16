@@ -1,3 +1,4 @@
+"use strict";
 //cú pháp khai báo:var/let/const tenBien:kiểuDữLiệu = value;
 //1. Kiểu dữ liệu cơ bản: Number/String/Boolean
 //1.1. Number:
@@ -7,7 +8,7 @@ var a = 10;
 //" ": double quote
 //` `: back tick
 var chuoi = "A đã nói \"xyz\"";
-var gia = "Gi\u00E1 tr\u1ECB c\u1EE7a a l\u00E0 ".concat(a);
+var gia = `Giá trị của a là ${a}`;
 console.log(chuoi, gia);
 //1.3. Boolean
 var isValid = true;
@@ -53,5 +54,8 @@ var Gender;
 })(Gender || (Gender = {}));
 ;
 //Ép kiểu:
-var input = '123456789';
-console.log(input.length);
+var input = '123456789'; //B1: ép kiểu về string => B2: dùng .length để đếm số ký tự ở trong chuỗi
+//C1: <kieuDuLieuMuonEp>tenBien (angle-bracket): 
+var count1 = input.length;
+//C2: sử khóa as: (tenBien as kieuDuLieu)
+var count2 = input.length;
