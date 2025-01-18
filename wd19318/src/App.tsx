@@ -11,7 +11,7 @@ const routeConfigs = [
     element: <Home/>, //khai báo file sẽ hiển thị
   },
   {//router detail
-    path: '/detail',
+    path: '/detail/:id',
     element: <Detail/>
   },
   {//router not found: khai báo cuối cùng
