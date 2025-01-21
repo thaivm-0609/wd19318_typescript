@@ -7,5 +7,21 @@
       "image": "https://picsum.photos/200"
     }
   ],
-  "users": []
+  "users": [
+    {
+      "email": "thaivm2@fe.edu.vn",
+      "password": "$2a$10$590ay5XQpu6J0FI2/EvjSucfYzx6iv/C9AoXV0ychyilqj2l1j4Aq",
+      "id": 1
+    },
+    {
+      "email": "thaivm22@fe.edu.vn",
+      "password": "$2a$10$lV3P9eo64o3zp5mVPe.vb.F1G0PezhGiuWvGR6fUgCHMn28uhxjuS",
+      "id": 2
+    },
+    {
+      "email": "thaivm2@fpt.edu.vn",
+      "password": "$2a$10$dnTG4NV7DrmWzlGorTNZVO54Kf74pG9RHgzUd3eM7EYMJn2AsthrO",
+      "id": 3
+    }
+  ]
 }
