@@ -13,6 +13,7 @@ function Register() {
     const { 
         register,
         handleSubmit,
+        formState: { errors }, //khai báo errors để lưu trữ validate errors
     } = useForm<RegisterInput>();
 
     const nav = useNavigate(); //khởi tạo hàm điều hướng
@@ -39,9 +40,16 @@ function Register() {
                         type="text" 
                         id="email"
                         {
-                            ...register('email')
+                            ...register('email', {
+                                required: "Email không được bỏ trống",
+                            })
                         }
                     />
+                    {
+                        errors?.email && (
+                            <p>Email không hợp lệ</p>
+                        )
+                    }
                 </div>
                 <div>
                     <label htmlFor="">Password</label>
@@ -49,9 +57,17 @@ function Register() {
                         type="text" 
                         id="password"
                         {
-                            ...register('password')
+                            ...register('password', {
+                                required: "Password không được bỏ trống",
+                                minLength: 6,
+                            })
                         }
                     />
+                    {
+                        errors?.password && (
+                            <p>{ errors?.password?.message }</p>
+                        )
+                    }
                 </div>
                 <button type="submit">Register</button>
             </form>

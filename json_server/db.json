@@ -22,6 +22,11 @@
       "email": "thaivm2@fpt.edu.vn",
       "password": "$2a$10$dnTG4NV7DrmWzlGorTNZVO54Kf74pG9RHgzUd3eM7EYMJn2AsthrO",
       "id": 3
+    },
+    {
+      "email": "thaivm3@fe.edu.vn",
+      "password": "$2a$10$QVMxuGewS6Fmldb1a4vt9eSjR6pvw1EFVJltsB1ANzwyWyZX4Qf1q",
+      "id": 4
     }
   ]
 }
