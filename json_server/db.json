@@ -1,10 +1,22 @@
 {
   "products": [
     {
-      "id": 3,
-      "name": "Product 3",
-      "price": 300000,
-      "image": "https://picsum.photos/200"
+      "name": "Product 333333",
+      "price": "999999",
+      "image": "https://picsum.photos/200",
+      "id": 3
+    },
+    {
+      "name": "thaivm2",
+      "price": "22222",
+      "image": "https://picsum.photos/100/100",
+      "id": 4
+    },
+    {
+      "name": "Thái Vương Minh",
+      "price": "222222",
+      "image": "https://picsum.photos/200/200",
+      "id": 5
     }
   ],
   "users": [

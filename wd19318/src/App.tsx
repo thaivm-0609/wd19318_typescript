@@ -6,6 +6,8 @@ import Detail from './pages/Detail'
 import NotFound from './pages/NotFound'
 import Register from './pages/Register'
 import Login from './pages/Login'
+import Create from './pages/Create'
+import Edit from './pages/Edit'
 
 const routeConfigs = [
   {//router home
@@ -23,6 +25,14 @@ const routeConfigs = [
   {//router login
     path: '/login',
     element: <Login/>,
+  },
+  {
+    path: '/create',
+    element: <Create/>
+  },
+  {
+    path: '/edit/:id',
+    element: <Edit/>
   },
   {//router not found: khai báo cuối cùng
     path: '*',
